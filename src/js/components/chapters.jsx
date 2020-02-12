@@ -12,6 +12,7 @@ class Chapters extends React.Component {
                             <label htmlFor="chapters-list">Chapters</label>
                             <br />
                             <select name="chapters-list" id="chapters-list" onChange={this.props.handleChapterChange}>
+                                <option value="">Select Chapter</option>
                                 {this.props.chapters.map(chapter => <option key={chapter.id} value={chapter.id}>{chapter.number}</option>)}
                             </select>
                         </div>

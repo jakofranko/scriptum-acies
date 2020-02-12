@@ -12,6 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "css-loader": "^2.1.0",
+    "d3-color": "^1.4.0",
+    "d3-interpolate": "^1.4.0",
+    "d3-scale": "^3.2.1",
+    "d3-scale-chromatic": "^1.5.0",
     "macian": "^1.0.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",

@@ -1,0 +1,11 @@
+.chapter-graph-item {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 1px;
+}
+
+span.v {
+    vertical-align: super;
+    font-size: .75em;
+}

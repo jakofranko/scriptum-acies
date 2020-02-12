@@ -32,6 +32,7 @@ class Bibles extends React.Component {
                     ? <p>Loading Bibles...</p>
                     : (
                         <select name="bible-translation" id="bible-translation" onChange={this.props.handleBibleChange}>
+                            <option value="">Select Translation</option>
                             {this.state.bibles.map(bible => <option key={bible.id} value={bible.id}>{bible.name}</option>)}
                         </select>
                     )

@@ -1,8 +1,12 @@
+import { hot } from 'react-hot-loader/root';
 import React from 'react';
 import { render } from 'react-dom';
 import App from './js/app';
 
 // Styles
 import 'macian';
+import './css/styles.css';
 
-render(<App />, document.getElementById("app"))
+const Hot = hot(App);
+
+render(<Hot />, document.getElementById("app"))
